@@ -5,6 +5,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
+import com.hemebiotech.analytics.read.ISymptomReader;
+import com.hemebiotech.analytics.write.ISymptomWriter;
+
 /**
  * La classe {@code AnalyticsCounter} est responsable de l'analyse des données
  * de symptômes. Elle lit les symptômes depuis une source donnée, compte leur

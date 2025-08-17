@@ -1,4 +1,8 @@
-package com.hemebiotech.analytics;
+package com.hemebiotech.main;
+
+import com.hemebiotech.analytics.AnalyticsCounter;
+import com.hemebiotech.analytics.read.ReadSymptomDataFromFile;
+import com.hemebiotech.analytics.write.WriteSymptomDataToFile;
 
 /**
  * La classe {@code Main} constitue le point d’entrée de l’application.
